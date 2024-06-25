@@ -16,10 +16,10 @@ app.get('/indunil', (req, res) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Ado uba ahapu hindama server eka host karanna haduwa  😄😄😄</title>
+      <title>simple title</title>
     </head>
     <body>
-      <h1>Hello, World!</h1>
+      <h1>Meken server ekak host karanna puluwan free . try karala balapan</h1>
       <p></p>
     </body>
     </html>
