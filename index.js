@@ -2,6 +2,7 @@ const express = require('express')
 const app = express()
 const db = require('./db');
 const seprate = require('./Routes/userRoute');
+const serverless = require("serverless-http");
 
 
 
@@ -25,3 +26,5 @@ app.get('/admin', (req, res) => {
 app.listen(3000, ()=>{
     console.log("server is listning")
 })
+
+module.exports.handler = serverless(app);
