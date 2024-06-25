@@ -9,8 +9,8 @@ app.get('/', (req, res) => {
 });
 
 // Add your other routes here
-app.get('/api', (req, res) => {
-  res.json({ message: 'Hello from Express API!' });
+app.get('/indunil', (req, res) => {
+  res.json({ message: 'Hello Indunil' });
 });
 
 module.exports.handler = serverless(app);
