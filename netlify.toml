@@ -1,0 +1,11 @@
+[build]
+  command = "npm install"
+  publish = "public"  # This directory is for any static files. Adjust if you have static assets.
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/*"
+  to = "/.netlify/functions/index"
+  status = 200
