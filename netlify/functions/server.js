@@ -16,7 +16,7 @@ app.get('/niro', (req, res) => {
     <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Colorful Page</title>
+      <title>Colorful Page1</title>
       <style>
         body {
           background-color: #f0f8ff;
