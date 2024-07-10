@@ -11,7 +11,9 @@ app.get('/a', (req, res) => {
     res.send("successful");
 });
 
-
+app.get('/', (req, res)=>{
+    res.send("its okay")
+})
 
 // Start server
 const port = process.env.PORT || 3000;
