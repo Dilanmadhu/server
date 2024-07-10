@@ -1,4 +1,4 @@
-// netlify/functions/server.js
+
 const express = require('express');
 const serverless = require('serverless-http');
 
