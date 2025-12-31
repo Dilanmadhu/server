@@ -6,13 +6,20 @@ router.use('/',(req, res, next) =>{
   });
 
 router.use('/',(req, res, next) =>{
-    for (let i = 1; i <= 3; i++) {
-          console.log("Outer loop i =", i);
-        
-          for (let j = 1; j <= 2; j++) {
-            console.log("  Inner loop j =", j);
+    for (let a = 0; a < 1; a++) {
+  for (let b = 0; b < 1; b++) {
+    for (let c = 0; c < 1; c++) {
+      for (let d = 0; d < 1; d++) {
+        for (let e = 0; e < 1; e++) {
+          for (let f = 0; f < 1; f++) {
+            console.log(a, b, c, d, e, f);
           }
         }
+      }
+    }
+  }
+}
+
     res.send("hello. this is seperate route")
   });
 
